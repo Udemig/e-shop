@@ -21,3 +21,6 @@ Products: Displays a list of products with filtering options for categories and 
 About: Information about the company, including stats and team members.
 Contact: Provides contact details, a contact form, and a Google Maps integration for the location.
 
+# Live Demo:
+https://e-shop-websiteyy.netlify.app/
+
