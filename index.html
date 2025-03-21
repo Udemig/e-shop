@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce-Home Page</title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- * Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- * Header -->
+    <header>
+      <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <h1>E-Shop</h1>
+        </div>
+        <!-- Menu Button -->
+        <button class="menu-btn" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Nav Icons -->
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- * Hero -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            Welcome to <br />
+            E-Shop
+          </h1>
+          <p>Discover our amazing collection of products</p>
+          <a href="products.html" class="cta-button">Shop Now</a>
+        </div>
+      </section>
+      <!-- * Announcements -->
+      <section class="announcements">
+        <div class="announcements-grid">
+          <!-- announcements-card -->
+          <div class="announcement-card">
+            <i class="fas fa-tag"></i>
+            <h3>50% Off</h3>
+            <p>Big discount on selected items!</p>
+          </div>
+          <!-- announcements-card -->
+          <div class="announcement-card">
+            <i class="fas fa-truck"></i>
+            <h3>Free Shipping</h3>
+            <p>On orders over $50</p>
+          </div>
+          <!-- announcements-card -->
+          <div class="announcement-card">
+            <i class="fas fa-gift"></i>
+            <h3>Special Offers</h3>
+            <p>Limited time deals!</p>
+          </div>
+          <!-- announcements-card -->
+          <div class="announcement-card">
+            <i class="fas fa-undo"></i>
+            <h3>Easy Returns</h3>
+            <p>30-day return policy</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- * Popular Products -->
+      <section class="popular-products">
+        <h2>Popular Products</h2>
+        <div class="products-grid">
+          <!-- product-card -->
+          <div class="product-card">
+            <img src="./images/sony-headpones.avif" alt="Wireless Headphones" />
+            <h3>Sony WH-1000XM4</h3>
+            <p class="price">$349.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- product-card -->
+          <div class="product-card">
+            <img src="./images/apple-watch-8.avif" alt="Smart Watch" />
+            <h3>Apple Watch Series 8</h3>
+            <p class="price">$399.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- product-card -->
+          <div class="product-card">
+            <img src="./images/playstation5.webp" alt="Gaming Console" />
+            <h3>PlayStation 5</h3>
+            <p class="price">$499.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- product-card -->
+          <div class="product-card">
+            <img src="./images/iphone15.webp" alt="Smartphone" />
+            <h3>iPhone 15 Pro</h3>
+            <p class="price">$999.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- * Footer -->
+    <footer>
+      <div class="footer-content">
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Modern and quality products e-commerce platform</p>
+          <p>We've been serving our customers since 2010.</p>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country
+            </li>
+            <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> info@eshop.com</li>
+          </ul>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <!-- Newsletter -->
+          <div class="newsletter">
+            <h4>Subscribe to Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 E-Shop. All rights reserved.
+          <span>Created By Yusuf YAMAN</span>
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!-- * Js Connection -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

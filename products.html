@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce-Products Page</title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- * Products Css Link -->
+    <link rel="stylesheet" href="css/products.css" />
+    <!-- * Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- * Header -->
+    <header>
+      <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <h1>E-Shop</h1>
+        </div>
+        <!-- Menu Button -->
+        <button class="menu-btn" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Nav Icons -->
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- * Products Page -->
+    <main class="products-page">
+      <!-- * Filters -->
+      <aside class="filters">
+        <h2>Filters</h2>
+        <div class="filter-section">
+          <h3>Categories</h3>
+          <ul>
+            <li>
+              <input type="checkbox" id="electronics" checked /><label
+                for="electronics"
+                >Electronics</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="filter-section">
+          <h3>Price Range</h3>
+          <div class="price-range">
+            <input type="range" min="0" max="1000" value="500" />
+            <div class="price-inputs">
+              <input type="number" placeholder="Min" value="0" />
+              <input type="number" placeholder="Max" value="500" />
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- * Products Grid -->
+      <section class="products-grid">
+        <!-- Header -->
+        <div class="products-header">
+          <h2>All Products</h2>
+          <!-- Sort Options -->
+          <div class="sort-options">
+            <select>
+              <option>Newest First</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+              <option>Best Sellers</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Product Container -->
+        <div class="products-container">
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/macbook.png" alt="MacBook Pro" />
+            <h3>MacBook Pro 14"</h3>
+            <p class="price">$1,999.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/samsung-tv.webp" alt="Samsung TV" />
+            <h3>Samsung QLED 4K TV</h3>
+            <p class="price">$1,299.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/airpods-pro-2.jpeg" alt="AirPods Pro" />
+            <h3>AirPods Pro 2nd Gen</h3>
+            <p class="price">$249.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/apple-watch-8.avif" alt="Smart Watch" />
+            <h3>Apple Watch Series 8</h3>
+            <p class="price">$399.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/coffee-marker.jpg" alt="Coffee Maker" />
+            <h3>Breville Coffee Maker</h3>
+            <p class="price">$199.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/roomba-i7+.webp" alt="Robot Vacuum" />
+            <h3>Roomba i7+</h3>
+            <p class="price">$799.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img
+              src="./images/logitech-g-pro-x-wireless.webp"
+              alt="Gaming Headset"
+            />
+            <h3>Logitech G Pro X Wireless</h3>
+            <p class="price">$179.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Product Card -->
+          <div class="product-card">
+            <img src="./images/razer-deathAdder-v2.webp" alt="Gaming Mouse" />
+            <h3>Razer DeathAdder V2</h3>
+            <p class="price">$69.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- * Footer -->
+    <footer>
+      <div class="footer-content">
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Modern and quality products e-commerce platform</p>
+          <p>We've been serving our customers since 2010.</p>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country
+            </li>
+            <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> info@eshop.com</li>
+          </ul>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <!-- Newsletter -->
+          <div class="newsletter">
+            <h4>Subscribe to Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 E-Shop. All rights reserved.
+          <span>Created By Yusuf YAMAN</span>
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
